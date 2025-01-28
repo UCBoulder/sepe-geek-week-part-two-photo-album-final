@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: my-photo-album
-  namespace: YOUR_NAMESPACE
+  namespace: oit-sepe-demo
   labels:
     app: my-photo-album
 spec:
