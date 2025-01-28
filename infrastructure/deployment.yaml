@@ -19,7 +19,7 @@ spec:
       containers:
       - name: photo-album
         # Use the internal hostname for the image registry
-        image: image-registry.openshift-image-registry.svc.cluster.local:5000/YOUR_NAMESPACE/my-photo-album:latest
+        image: ghcr.io/YOUR_GH_ACCOUNT/YOUR_REPO/photo-album:latest
         # Enable DEBUG logging on the static web server
         env:
         - name: DEBUG
